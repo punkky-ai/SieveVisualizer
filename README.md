@@ -67,9 +67,16 @@ By slowing down the algorithm and visualizing each operation, learners can clear
 - How the algorithm progresses step by step
 
 ---
+## Requirements
+
+- Windows 11
+- .NET 10.0 (or later)
+- Visual Studio 2026 with WinForms workload
+
 
 ## 🖥️ Screens & Output
 
 The application renders a grid of numbers and visually marks composites as the sieve progresses.
+<img width="860" height="560" alt="frame_00202" src="https://github.com/user-attachments/assets/35d81902-f338-4671-bee5-286ac8ad6799" />
 
 It also supports exporting animation frames, which can be converted into videos using **FFmpeg**
