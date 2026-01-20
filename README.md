@@ -6,6 +6,34 @@ This project focuses on **understanding over performance** by animating each sta
 
 ---
 
+## Sieve of Eratosthenes (Algorithm Overview)
+
+The **Sieve of Eratosthenes** is an efficient algorithm for finding all prime numbers less than or equal to a given number **N**.
+
+### Steps
+
+1. **Initialize**  
+   List all integers from **2 to N** and mark them as *unprocessed*.
+
+2. **Select a base prime (`p`)**  
+   Start with `p = 2`.  
+   If `p` is not marked as composite, it is a prime number.
+
+3. **Mark multiples of `p`**  
+   Mark all multiples of `p` as *composite*, starting from **`p²`**.  
+   (Smaller multiples have already been marked by smaller primes.)
+
+4. **Move to the next candidate**  
+   Choose the next unmarked number greater than `p` and repeat the process.
+
+5. **Stop condition**  
+   Stop when **`p² > N`**.
+
+6. **Result**  
+   All remaining unmarked numbers are **prime numbers**.
+
+---
+
 ## ✨ Features
 
 - Step-by-step visualization of the Sieve of Eratosthenes
